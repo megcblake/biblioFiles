@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import BookEntry from './BookEntry.jsx';
 
 const BookList = (props) => {
-  const bookList = props.books.map(book => (
-    <BookEntry key={book._id} book={book} changeRead={props.changeRead} deleteBook={props.deleteBook} />
+  const { books, changeRead, deleteBook } = props;
+  const bookList = books.map(book => (
+    <BookEntry key={book._id} book={book} changeRead={changeRead} deleteBook={deleteBook} />
   ));
 
   return (
@@ -11,6 +13,12 @@ const BookList = (props) => {
       {bookList}
     </div>
   );
+};
+
+BookList.propTypes = {
+  books: PropTypes.arrayOf(PropTypes.object),
+  changeRead: PropTypes.func.isRequired,
+  deleteBook: PropTypes.func.isRequired,
 };
 
 export default BookList;

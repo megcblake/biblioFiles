@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class AddBooks extends React.Component {
   constructor(props) {
@@ -22,7 +23,9 @@ class AddBooks extends React.Component {
   }
 
   handleSubmit(event) {
-    this.props.addBooks(this.state.title, this.state.author);
+    const { title, author } = this.state;
+    const { addBooks } = this.props;
+    addBooks(title, author);
     this.setState({
       title: '',
     });
@@ -34,19 +37,24 @@ class AddBooks extends React.Component {
 
 
   render() {
+    const { title, author } = this.state;
     return (
       <div className="search-books">
         <span className="search-title">Search</span>
         <div className="search-params">
           <form>
-                <input type="text" placeholder="book title" name="title" value={this.state.title} onChange={this.handleChange} />
-                <input type="text" placeholder="book author" name="author" value={this.state.author} onChange={this.handleChange} />
-            <button className="submitButton" onClick={this.handleSubmit}></button>
+            <input type="text" placeholder="book title" name="title" value={title} onChange={this.handleChange} />
+            <input type="text" placeholder="book author" name="author" value={author} onChange={this.handleChange} />
+            <button className="submitButton" type="submit" onClick={this.handleSubmit} />
           </form>
         </div>
       </div>
     );
   }
 }
+
+AddBooks.propTypes = {
+  addBooks: PropTypes.func.isRequired,
+};
 
 export default AddBooks;
