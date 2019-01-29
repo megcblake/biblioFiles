@@ -1,0 +1,120 @@
+{
+    "kind": "books#volume",
+    "id": "Sm5AKLXKxHgC",
+    "etag": "7c0JCWfxY7c",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Sm5AKLXKxHgC",
+    "volumeInfo": {
+     "title": "Harry Potter and the Prisoner of Azkaban",
+     "authors": [
+      "J.K. Rowling"
+     ],
+     "publisher": "Pottermore Publishing",
+     "publishedDate": "2015-12-08",
+     "description": "\u003cp\u003e\"'Welcome to the Knight Bus, emergency transport for the stranded witch or wizard. Just stick out your wand hand, step on board and we can take you anywhere you want to go.'\"\u003cbr\u003e\u003cbr\u003eWhen the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run - and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss...\u003c/p\u003e",
+     "industryIdentifiers": [
+      {
+       "type": "ISBN_10",
+       "identifier": "1781100519"
+      },
+      {
+       "type": "ISBN_13",
+       "identifier": "9781781100516"
+      }
+     ],
+     "readingModes": {
+      "text": true,
+      "image": true
+     },
+     "pageCount": 448,
+     "printedPageCount": 469,
+     "printType": "BOOK",
+     "categories": [
+      "Juvenile Fiction / Action & Adventure / General",
+      "Fiction / Fantasy / Contemporary",
+      "Young Adult Fiction / Fantasy / Wizards & Witches",
+      "Young Adult Fiction / Action & Adventure / General",
+      "Young Adult Fiction / School & Education / Boarding School & Prep School",
+      "Fiction / Action & Adventure",
+      "Juvenile Fiction / Fantasy & Magic",
+      "Juvenile Fiction / School & Education",
+      "Fiction / Fantasy / General",
+      "Juvenile Fiction / General"
+     ],
+     "averageRating": 4.5,
+     "ratingsCount": 2475,
+     "maturityRating": "NOT_MATURE",
+     "allowAnonLogging": true,
+     "contentVersion": "1.15.14.0.preview.3",
+     "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+     },
+     "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73gyssToWhamHMoTqkdrS_CXXLtC6OD9E8kQ_G4MlXMQ3zQCM49mthBH94Q6IvJfxvcdhvVU2Cxqx4vWlpF0VETbOazH5rYRCvvEZCZPr9UbbjVbD8O_ZwyL0-k31UXeoaSrllU&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73gJlfXdhL0e3RwcVI_BjczWbbfYVEg6cKGNmlv0EuNupQZX1X2v5vn17iAeT9O8NF7AFNn8AIS5N99qAJdsJb_fh9cpzeaPzjjInmt2PzrXLDCjZM9XP9mS0wlnSI-5RexksSt&source=gbs_api",
+      "small": "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70K_QBqUeice8waUJfmmmwYKa7aoqSCxlP06myudCvoRsviLxiuhRnf4AK0yh2El4ddIRA9Vk1QqUqrVcUL7C5VKBGjbrbEvNBYEnU4i50vvHUFVPPTtKkLz3LacnXBHOShnJWW&source=gbs_api",
+      "medium": "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72_AAlyGripruq-sRI3-9q5DgnJB1bC-fjqBo1p1he8Mw5-U1F4TxVEAKa8nQAydE8mHP2kOwz_6bTv4tF0cuiArm5h-CSXxtYEPq8ZljqOnyaxw-PBzWXyj0WRKo7K3BOmDZIy&source=gbs_api",
+      "large": "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE720JaaSqfBIownfn6DIK7zsO2fZuUgADvos3eoLPxwWpiGQYT3TyPEBbauqcYZGGg8UlSvAjXvT4kTWp4aX6r2Vreaue3q4Tj5ki4hhy4oBfq5Y2-5Usm-9abe97vzV-Fcm7vT_&source=gbs_api",
+      "extraLarge": "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72fwX8IFiCHPbeGKcQh_EprRMWvChhOGe9H5Eha_x2jya8arJ6ejLeBVuFHZMbM19ahDobyJrb256_5HfYMQeNKhgnuV_m9kaaJKD7MAcSN0aw-0VIbJcOQnOqUyXiEpZJsTL7U&source=gbs_api"
+     },
+     "language": "en",
+     "previewLink": "http://books.google.com/books?id=Sm5AKLXKxHgC&hl=&source=gbs_api",
+     "infoLink": "https://play.google.com/store/books/details?id=Sm5AKLXKxHgC&source=gbs_api",
+     "canonicalVolumeLink": "https://market.android.com/details?id=book-Sm5AKLXKxHgC"
+    },
+    "layerInfo": {
+     "layers": [
+      {
+       "layerId": "geo",
+       "volumeAnnotationsVersion": "20"
+      }
+     ]
+    },
+    "saleInfo": {
+     "country": "US",
+     "saleability": "FOR_SALE",
+     "isEbook": true,
+     "listPrice": {
+      "amount": 8.99,
+      "currencyCode": "USD"
+     },
+     "retailPrice": {
+      "amount": 8.99,
+      "currencyCode": "USD"
+     },
+     "buyLink": "https://play.google.com/store/books/details?id=Sm5AKLXKxHgC&rdid=book-Sm5AKLXKxHgC&rdot=1&source=gbs_api",
+     "offers": [
+      {
+       "finskyOfferType": 1,
+       "listPrice": {
+        "amountInMicros": 8990000.0,
+        "currencyCode": "USD"
+       },
+       "retailPrice": {
+        "amountInMicros": 8990000.0,
+        "currencyCode": "USD"
+       },
+       "giftable": true
+      }
+     ]
+    },
+    "accessInfo": {
+     "country": "US",
+     "viewability": "PARTIAL",
+     "embeddable": true,
+     "publicDomain": false,
+     "textToSpeechPermission": "ALLOWED",
+     "epub": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.com/books/download/Harry_Potter_and_the_Prisoner_of_Azkaban-sample-epub.acsm?id=Sm5AKLXKxHgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+     },
+     "pdf": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.com/books/download/Harry_Potter_and_the_Prisoner_of_Azkaban-sample-pdf.acsm?id=Sm5AKLXKxHgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+     },
+     "webReaderLink": "http://play.google.com/books/reader?id=Sm5AKLXKxHgC&hl=&printsec=frontcover&source=gbs_api",
+     "accessViewStatus": "SAMPLE",
+     "quoteSharingAllowed": false
+    }
+   }
+   
