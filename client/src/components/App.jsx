@@ -1,8 +1,7 @@
-/* eslint-disable class-methods-use-this */
 import React from 'react';
 import AddBooks from './AddBooks.jsx';
 import BookList from './BookList.jsx';
-import example from '../../../helpers/example.json';
+import ShowStats from './ShowStats.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -41,7 +40,7 @@ class App extends React.Component {
       method: 'POST',
       body: JSON.stringify(data),
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
     })
       .then(() => {
@@ -83,15 +82,17 @@ class App extends React.Component {
   }
 
   render() {
+    const { books } = this.state;
     return (
       <div className="books">
         <div className="sidebar">
-          <span className="side-big-title"><h1>BiblioGoals</h1></span>
+          <span className="side-big-title"><h1>BiblioFiles</h1></span>
           <div className="side-subtitle">Welcome back!</div>
           <AddBooks addBooks={this.addBooks} />
+          <ShowStats books={books} />
         </div>
         <div className="main">
-          <BookList books={this.state.books} changeRead={this.changeRead} deleteBook={this.deleteBook} />
+          <BookList books={books} changeRead={this.changeRead} deleteBook={this.deleteBook} />
         </div>
       </div>
     );

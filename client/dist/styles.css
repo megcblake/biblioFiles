@@ -65,6 +65,41 @@
     padding:5px;
 }
 
+.stats-title {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #e9e9e9;
+    width: 215px;
+}
+
+.stats-items {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.stats-item {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.stats-items img {
+    height: 40px;
+    margin: 5px;
+}
+
+.stats-entries {
+    font-family: 'Scope One', serif;
+    display: inline block;
+    font-weight: bold;
+}
+
 .main {
     position: relative;
     right: 0;
@@ -98,6 +133,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 250px;
     margin: 5px;
+}
+
+.bookEntry img:hover {
+    cursor: pointer;
 }
 
 .read-flag {
@@ -200,9 +239,9 @@
     text-decoration: none;
     position: absolute;
     outline: none;
-    left: 24%;
-    bottom: 10%;
-    transform: translate(-24%, 10%);
+    left: 23%;
+    bottom: 15%;
+    transform: translate(-23%, 15%);
     border-radius: 11px;
     background-color: #ff533d;
     font-family: 'Poppins', sans-serif;

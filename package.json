@@ -32,13 +32,11 @@
     "mongoose": "^5.4.7",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.9",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-html-parser": "^2.0.2",
-    "react-modal": "^3.8.1",
     "react-responsive-modal": "^3.5.1",
-    "react-show-more-text": "^1.0.4",
-    "react-truncate": "^2.4.0",
     "react-truncate-html": "^0.1.7",
     "request": "^2.88.0"
   }
