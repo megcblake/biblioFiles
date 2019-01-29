@@ -1,0 +1,372 @@
+.books {
+    display: flex;
+    position: relative;
+    font-family: 'Times';
+    font-size: 16px;
+}
+
+.sidebar {
+    border-right: 1px solid #e9e9e9;
+    background-color: #f5f5f5;
+    position:fixed;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    float: left;
+}
+
+.side-big-title {
+    text-align: center;
+    font-family: 'Taviraj', serif;
+}
+
+.side-subtitle {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    color: #f7b733;
+    font-family: 'Arvo', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-top: -30px;
+    margin-left: 97px;
+}
+
+.search-title {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #e9e9e9;
+    width: 215px;
+}
+
+.search-line {
+    width: 25px;
+    margin-bottom: 6px;
+    display: inline-block;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #fc4a1a;
+    outline: none;
+}
+
+.search-books {
+    padding:10px;
+}
+
+.search-params {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    line-height: .8;
+    padding:5px;
+}
+
+.main {
+    position: relative;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width:80%;
+    left: 250px;
+}
+
+.bookList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.book-entry {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bookEntry {
+    position: relative;
+}
+
+.bookEntry img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    margin: 5px;
+}
+
+.read-flag {
+    background-color: rgba(245,245,245, 0.8);
+    border-radius: 11px;
+    padding: 2px 10px;
+    width: 30px;
+    top:10px;
+    right:10px;
+    z-index: 3;
+    position:absolute;
+    text-transform: lowercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #ff533d;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.modal-header {
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.modal-inner {
+    display: flex;
+    height: 500px;
+}
+
+.modal-desc {
+    padding: 10px;
+    width: 50%;
+    border-right: 1px solid #e9e9e9;
+}
+
+.modal-genres {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    color: #4abdac;
+    font-family: 'Arvo', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.modal-read-status {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    color: #f7b733;
+    font-family: 'Arvo', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.modal-author {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Arvo', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.author-color {
+    color: #4abdac;
+}
+
+.modal-inner img {
+    height: 40px;
+    margin: 5px;
+}
+
+.modal-about {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.modal-item {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.modal-about-entries {
+    font-family: 'Scope One', serif;
+    display: inline block;
+    font-weight: bold;
+}
+
+.modal-remove-book button {
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    outline: none;
+    left: 24%;
+    bottom: 10%;
+    transform: translate(-24%, 10%);
+    border-radius: 11px;
+    background-color: #ff533d;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    width: 75px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.modal-summary {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 7px;
+    padding-left: 35px;
+    width: 50%;
+    font-size: 16px;
+}
+
+.modal-read {
+    padding-bottom: 5px;
+}
+
+.modal-synopsis {
+    height: 82%;
+    padding-right:15px;
+    font-family: 'Scope One', serif;
+    overflow: scroll;
+}
+
+.modal-read-more {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    color: #f7b733;
+    font-family: 'Arvo', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding-top: 5px;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    width: 20px;
+    height: 11px;
+    float: right;
+    margin-right: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 9px;
+    width: 9px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #f7b733;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #f7b733;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(9px);
+    -ms-transform: translateX(9px);
+    transform: translateX(9px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 11px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.modal-synopsis::-webkit-scrollbar {
+    width: 0.25em;
+}
+ 
+.modal-synopsis::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px #fff;
+    border-radius: 10px;
+}
+ 
+.modal-synopsis::-webkit-scrollbar-thumb {
+  background-color: #f7b733;
+  border-radius: 10px;
+  outline: 1px solid #f7b733;
+}
+
+input[type=text] {
+    border: none;
+    background: rgba(255, 255, 255, 1);
+    padding: 2px 15px;
+    outline: none;
+    line-height: 1.5;
+    border-radius: 36px;
+    margin: 5px;
+}
+
+.search-params button {
+    margin: 5px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+}
+  
+.search-params button:after {
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: -0.5px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: auto auto auto auto;
+    background: #f7b733;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
