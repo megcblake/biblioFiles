@@ -29,7 +29,7 @@ app.post('/api/book', (req, res) => {
   const author = req.body.author.split(' ').join('+');
   helpers.searchBooks(title, author, (error, response) => {
     if (error) {
-      throw error;
+      res.status(404).send('Error finding title!');
     } else {
       const info = response.body;
       const specs = JSON.parse(info);
@@ -37,7 +37,7 @@ app.post('/api/book', (req, res) => {
       const id = book.id;
       helpers.getBooksByVolume(id, (err, resp) => {
         if (err) {
-          throw err;
+          res.status(404).send('Error finding volume!');
         } else {
           const rData = resp.body;
           const data = JSON.parse(rData);
