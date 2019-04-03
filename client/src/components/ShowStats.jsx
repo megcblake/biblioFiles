@@ -21,6 +21,9 @@ const ShowStats = ({ books }) => {
   const genreVals = Object.values(genreCache);
   const genreResult = [];
   genreKeys.forEach((key, i) => genreResult.push([key, genreVals[i]]));
+  genreResult.sort((a,b) => {
+    return b[1] - a[1];
+  });
   const gen = books.length ? (genreResult[0][0]) : 'None';
   return (
     <div className="show-stats">
