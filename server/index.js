@@ -17,7 +17,7 @@ app.use('/', express.static(path.join(__dirname, './../client/dist')));
 app.get('/api/books', (req, res) => {
   db.getBooks((err, response) => {
     if (err) {
-      throw err;
+      res.status(404).send('Error retrieving library!');
     } else {
       res.send(response);
     }
@@ -72,7 +72,7 @@ app.patch('/api/read', (req, res) => {
   const status = req.body.read;
   db.changeStatus(id, status, (err) => {
     if (err) {
-      throw err;
+      res.status(404).send('Error editing selected book!');
     } else {
       res.status(200).end();
     }
@@ -83,7 +83,7 @@ app.delete('/api/book', (req, res) => {
   const id = req.body.id;
   db.removeBook(id, (err) => {
     if (err) {
-      throw err;
+      res.status(404).send('Error deleting selected book!');
     } else {
       res.status(200).end();
     }
