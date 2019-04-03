@@ -39,7 +39,6 @@ app.post('/api/book', (req, res) => {
         if (err) {
           throw err;
         } else {
-        //   res.send(resp.body);
           const rData = resp.body;
           const data = JSON.parse(rData);
           const volume = {
